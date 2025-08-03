@@ -532,7 +532,7 @@ function App() {
                 <h4 className="font-semibold text-green-200 mb-2">Upload Successful!</h4>
                 <div className="text-sm text-gray-300">
                   <p><strong>File:</strong> {selectedDataset.filename}</p>
-                  <p><strong>Size:</strong> {selectedDataset.shape[0]:,} rows × {selectedDataset.shape[1]} columns</p>
+                  <p><strong>Size:</strong> {selectedDataset.shape[0].toLocaleString()} rows × {selectedDataset.shape[1]} columns</p>
                 </div>
                 
                 <div className="mt-4 flex items-center gap-4">
