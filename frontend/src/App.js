@@ -648,7 +648,7 @@ function App() {
                       <div>
                         <p className="text-white font-medium">{dataset.filename}</p>
                         <p className="text-gray-400 text-sm">
-                          {dataset.shape[0]:,} rows × {dataset.shape[1]} columns
+                          {dataset.shape[0].toLocaleString()} rows × {dataset.shape[1]} columns
                         </p>
                       </div>
                     </div>
